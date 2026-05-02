@@ -1,0 +1,14 @@
+{
+  "name": "notification-app-be",
+  "version": "1.0.0",
+  "description": "Campus Notifications Priority Inbox - Backend (Stage 1 & 2)",
+  "main": "priorityInbox.js",
+  "scripts": {
+    "start": "node priorityInbox.js",
+    "top10": "node priorityInbox.js --top 10",
+    "top15": "node priorityInbox.js --top 15",
+    "top20": "node priorityInbox.js --top 20"
+  },
+  "keywords": ["notifications", "priority-inbox", "min-heap"],
+  "license": "ISC"
+}
